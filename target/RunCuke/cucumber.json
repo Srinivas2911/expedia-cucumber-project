@@ -1,0 +1,1027 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 24769255400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Verify That User is Able to Search Same Destination Flights",
+        "description": "",
+        "id": "flight-search-feature;verify-that-user-is-able-to-search-same-destination-flights;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3852741300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 452411600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on Home page",
+            "match": {
+              "location": "MyStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2127560500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on Flights Tab",
+            "match": {
+              "location": "FlightsSteps.iClickOnFlightsTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2082739600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter origin city \"London\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "London",
+                  "offset": 21
+                }
+              ],
+              "location": "FlightsSteps.iEnterOriginCity(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1472308400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter destination city \"Delhi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Delhi",
+                  "offset": 26
+                }
+              ],
+              "location": "FlightsSteps.iEnterDestinationCity(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4620688500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter outbound date of travel \"07/08/2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "07/08/2020",
+                  "offset": 33
+                }
+              ],
+              "location": "FlightsSteps.iEnterOutboundDateOfTravel(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6107726300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter return travel date \"21/08/2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "21/08/2020",
+                  "offset": 28
+                }
+              ],
+              "location": "FlightsSteps.iEnterReturnTravelDate(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24512301600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I add no travellers",
+            "match": {
+              "location": "FlightsSteps.iAddNoTravellers()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39998553100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on search button",
+            "match": {
+              "location": "FlightsSteps.iClickOnSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 304295800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I must see flights to the same destination \"Select your departure to Delhi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Select your departure to Delhi",
+                  "offset": 44
+                }
+              ],
+              "location": "FlightsSteps.iMustSeeFlightsToTheSameDestination(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Flights"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 16309018900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Verify That User is Able to Search Same Destination Flights",
+        "description": "",
+        "id": "flight-search-feature;verify-that-user-is-able-to-search-same-destination-flights;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 3788987600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 285500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on Home page",
+            "match": {
+              "location": "MyStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5719781500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on Flights Tab",
+            "match": {
+              "location": "FlightsSteps.iClickOnFlightsTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1962376400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter origin city \"Delhi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Delhi",
+                  "offset": 21
+                }
+              ],
+              "location": "FlightsSteps.iEnterOriginCity(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1552804900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter destination city \"Manchester\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Manchester",
+                  "offset": 26
+                }
+              ],
+              "location": "FlightsSteps.iEnterDestinationCity(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1499279800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter outbound date of travel \"15/10/2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "15/10/2020",
+                  "offset": 33
+                }
+              ],
+              "location": "FlightsSteps.iEnterOutboundDateOfTravel(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2550596600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter return travel date \"12/12/2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12/12/2020",
+                  "offset": 28
+                }
+              ],
+              "location": "FlightsSteps.iEnterReturnTravelDate(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21347462600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I add no travellers",
+            "match": {
+              "location": "FlightsSteps.iAddNoTravellers()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25877768800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on search button",
+            "match": {
+              "location": "FlightsSteps.iClickOnSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 221724600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I must see flights to the same destination \"Select your departure to Manchester\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Select your departure to Manchester",
+                  "offset": 44
+                }
+              ],
+              "location": "FlightsSteps.iMustSeeFlightsToTheSameDestination(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Flights"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 17738320500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Verify That User is Able to Search Same Destination Flights",
+        "description": "",
+        "id": "flight-search-feature;verify-that-user-is-able-to-search-same-destination-flights;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 4566167300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 496900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on Home page",
+            "match": {
+              "location": "MyStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3060080100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on Flights Tab",
+            "match": {
+              "location": "FlightsSteps.iClickOnFlightsTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2224316400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter origin city \"New York\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "New York",
+                  "offset": 21
+                }
+              ],
+              "location": "FlightsSteps.iEnterOriginCity(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2097963700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter destination city \"London\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "London",
+                  "offset": 26
+                }
+              ],
+              "location": "FlightsSteps.iEnterDestinationCity(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1582096300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter outbound date of travel \"20/10/2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20/10/2020",
+                  "offset": 33
+                }
+              ],
+              "location": "FlightsSteps.iEnterOutboundDateOfTravel(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2717752600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter return travel date \"22/11/2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "22/11/2020",
+                  "offset": 28
+                }
+              ],
+              "location": "FlightsSteps.iEnterReturnTravelDate(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21544491200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I add no travellers",
+            "match": {
+              "location": "FlightsSteps.iAddNoTravellers()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26013741000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on search button",
+            "match": {
+              "location": "FlightsSteps.iClickOnSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 358282700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I must see flights to the same destination \"Select your departure to London\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Select your departure to London",
+                  "offset": 44
+                }
+              ],
+              "location": "FlightsSteps.iMustSeeFlightsToTheSameDestination(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Flights"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 20308482400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Verify That User is NOT Able to Search Wrong Destination Flights",
+        "description": "",
+        "id": "flight-search-feature;verify-that-user-is-not-able-to-search-wrong-destination-flights",
+        "after": [
+          {
+            "result": {
+              "duration": 4005057800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 44700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I am on Home page",
+            "match": {
+              "location": "MyStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3750970300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I click on Flights Tab",
+            "match": {
+              "location": "FlightsSteps.iClickOnFlightsTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2059430500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I enter origin city \"Washington\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Washington",
+                  "offset": 21
+                }
+              ],
+              "location": "FlightsSteps.iEnterOriginCity(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2938520200,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I enter destination city \"Mount Gambier\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mount Gambier",
+                  "offset": 26
+                }
+              ],
+              "location": "FlightsSteps.iEnterDestinationCity(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2089623000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I enter outbound date of travel \"07/08/2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "07/08/2020",
+                  "offset": 33
+                }
+              ],
+              "location": "FlightsSteps.iEnterOutboundDateOfTravel(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3315313700,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I enter return travel date \"21/08/2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "21/08/2020",
+                  "offset": 28
+                }
+              ],
+              "location": "FlightsSteps.iEnterReturnTravelDate(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21828250000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I add no travellers",
+            "match": {
+              "location": "FlightsSteps.iAddNoTravellers()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28200027400,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I click on search button",
+            "match": {
+              "location": "FlightsSteps.iClickOnSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 161940000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I must get No flights message between the cities",
+            "match": {
+              "location": "FlightsSteps.iMustGetNoFlightsMessageBetweenTheCities()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Flight Search Feature",
+    "description": "As a user, I want to find search flights between cities",
+    "id": "flight-search-feature",
+    "keyword": "Feature",
+    "uri": "src/test/java/co/uk/expedia/resources/featurefile/flightsearch.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Flights"
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 18972904000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "User should login successfully with valid credentials",
+        "description": "",
+        "id": "login-feature;user-should-login-successfully-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 4537242000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 74700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on Home page",
+            "match": {
+              "location": "MyStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1820695600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I clickOnAccountTab",
+            "match": {
+              "location": "MyStepdefs.iClickOnAccountTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1103431300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I clickOnSignInTab",
+            "match": {
+              "location": "MyStepdefs.iClickOnSignInTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8079848200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter valid Email \"JamesB1234@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "JamesB1234@gmail.com",
+                  "offset": 21
+                }
+              ],
+              "location": "MyStepdefs.iEnterValidEmail(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99278612700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter valid password \"James123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "James123",
+                  "offset": 24
+                }
+              ],
+              "location": "MyStepdefs.iEnterValidPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 478018200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on login button",
+            "match": {
+              "location": "MyStepdefs.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 730443600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should login successfully",
+            "match": {
+              "location": "MyStepdefs.iShouldLoginSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 18018869800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "User should Not login successfully with invalid credentials",
+        "description": "",
+        "id": "login-feature;user-should-not-login-successfully-with-invalid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 4022299100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 50000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I am on Home page",
+            "match": {
+              "location": "MyStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2110019400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I clickOnAccountTab",
+            "match": {
+              "location": "MyStepdefs.iClickOnAccountTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1009404700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I clickOnSignInTab",
+            "match": {
+              "location": "MyStepdefs.iClickOnSignInTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7219361800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I enter valid Email \"RogerB1234@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "RogerB1234@gmail.com",
+                  "offset": 21
+                }
+              ],
+              "location": "MyStepdefs.iEnterValidEmail(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 782309000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I enter valid password \"Roger123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Roger123",
+                  "offset": 24
+                }
+              ],
+              "location": "MyStepdefs.iEnterValidPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 321684900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I click on login button",
+            "match": {
+              "location": "MyStepdefs.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 405513600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I should Not login successfully",
+            "match": {
+              "location": "MyStepdefs.iShouldNotLoginSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login feature",
+    "description": "\r\nAs a user, I want to login in to expedia.co.uk successfully",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "src/test/java/co/uk/expedia/resources/featurefile/login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Login"
+      }
+    ]
+  }
+]
